@@ -1,6 +1,6 @@
 #!/bin/sh
 # Author Piolo Martin
-# XMR_Miner_Mod _Dreyannz_
+# XMR_Miner_Mod _James_
 
 
 # Disclaimer Sequence
@@ -87,11 +87,9 @@ clear
 echo "                                                        "
 echo "                                                  "
 echo "           To Check If Worker Is Online           "
-echo "           Open Your Browser And Go To:           "
-echo "        https://supportxmr.com/#/dashboard        "
+echo "                Open Your Proxy                   "
+echo "                Type pm2 monit                    "
 echo "                                                  "
-echo "          Process May Take A Few Minutes          "
-echo "        Before Appearing On Your DashBoard        "
 echo "                                                  "
 read -r -p "        Press Enter Key To Close Sequence         " Skipper2
 echo "                                                  "
