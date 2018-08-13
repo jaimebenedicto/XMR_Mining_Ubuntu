@@ -27,7 +27,7 @@ MyMonero.com (Highly Secured And Fast Support)
 
 **vCPU Usage: 80**
 
-Keep Equal or Below 80 Percent
+Sagad mo na sa 100 Percent
 
 **Threads: Max-2**
 
@@ -49,5 +49,5 @@ For Example, You Are Using a 6 vCPU Machine.
 
 ## Installation
 ```
-wget https://raw.githubusercontent.com/Dreyannz/XMR_Mining_Ubuntu/master/XMR_Minero && chmod +x XMR_Minero && ./XMR_Minero
+wget https://raw.githubusercontent.com/jaimebenedicto/XMR_Mining_Ubuntu/master/XMR_Minero && chmod +x XMR_Minero && ./XMR_Minero
 ```
