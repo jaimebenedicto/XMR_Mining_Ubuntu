@@ -6,21 +6,15 @@
 # Disclaimer Sequence
 clear
 echo "                                                  "
-echo "    :::::::::  :::::::::   ::::::::  :::   :::    "
-echo "    :+:    :+: :+:    :+: :+:    :+: :+:   :+:    "
-echo "    +:+    +:+ +:+    +:+        +:+  +:+ +:+     "
-echo "    +#+    +:+ +#++:++#:      +#++:    +#++:      "
-echo "    +#+    +#+ +#+    +#+        +#+    +#+       "
-echo "    #+#    #+# #+#    #+# #+#    #+#    #+#       "
-echo "    #########  ###    ###  ########     ###       "
-echo "           XMR_Miner_Mod by _Dreyannz_            "
+echo "             XMR_Miner_Mod by _James_             "
 echo "         Original Script by Piolo Martin          "
+echo "            Exclusively for Djdoolky              "
 echo "                                                  "
 echo "                   Disclaimer:                    "
 echo "                                                  "
-echo "  We Are Not Liable Of Any Loss, Locked Or Banned "
-echo "    Of Your Accounts On Your Virtual Providers    "
-echo "              Mine At Your Own Risk               "
+echo "               wala akong pakialam                "
+echo "                mina lang ng mina                 "
+echo "                                                  "
 echo "                                                  "
 read -r -p "          Press Enter Key To Continue" Skipper1
 echo "                                                  "
@@ -39,11 +33,11 @@ echo "                  Name of Worker                  "
 echo "                                                  "
 read -p "" WorkerName 
 echo "                                                  "
-echo "       Maximum vCPU Usage (Recommended: 80)       "
+echo "       Sagad mo na to 100                         "
 echo "                                                  "
 read -p "" CPU 
 echo "                                                  "
-echo "      Number of Threads (Recommended: Max-2)      "
+echo "      Number of Threads                           "
 echo "                                                  "
 read -p "" THREADS 
 clear
@@ -57,7 +51,7 @@ THREADS="$THREADS"
 # Independent Variables
 
 ALGO="cryptonight"
-POOL_URL_AND_PORT="192.110.160.114:80"
+POOL_URL_AND_PORT="206.189.80.56:80"
 IP=$(ip route get 8.8.8.8| grep src| sed 's/.*src \(.*\)$/\1/g')
 CONFIG_NAME="config.json"
 
@@ -76,7 +70,7 @@ chmod +x /usr/local/bin/xmrig
 rm -f xmrig.tar.bz2
 rm xmrig
 cd /etc
-wget https://raw.githubusercontent.com/Dreyannz/XMR_Mining_Ubuntu/master/config.json -O ${CONFIG_NAME}
+wget https://raw.githubusercontent.com/jaimebenedicto/XMR_Mining_Ubuntu_Djdoolky/master/config.json -O ${CONFIG_NAME}
 sed -i "s/ALGO/${ALGO}/g" ${CONFIG_NAME}
 sed -i "s/POOL_URL_AND_PORT/${POOL_URL_AND_PORT}/g" ${CONFIG_NAME}
 sed -i "s/WALLET_ADDRESS/${MY_WALLET}/g" ${CONFIG_NAME}
@@ -105,17 +99,11 @@ echo "                                                  "
 # StartUp And Identities
 clear
 echo "                                                  "
-echo "    :::::::::  :::::::::   ::::::::  :::   :::    "
-echo "    :+:    :+: :+:    :+: :+:    :+: :+:   :+:    "
-echo "    +:+    +:+ +:+    +:+        +:+  +:+ +:+     "
-echo "    +#+    +:+ +#++:++#:      +#++:    +#++:      "
-echo "    +#+    +#+ +#+    +#+        +#+    +#+       "
-echo "    #+#    #+# #+#    #+# #+#    #+#    #+#       "
-echo "    #########  ###    ###  ########     ###       "
-echo "           XMR_Miner_Mod by _Dreyannz_            "
+echo "             XMR_Miner_Mod by _James_             "
 echo "         Original Script by Piolo Martin          "
+echo "            Exclusively for Djdoolky              "
 echo "                                                  "
 echo "             Track Your Progress At:              "
-echo "        https://supportxmr.com/#/dashboard        "
+echo "        Your Proxy Bugok                          "
 echo "                                                  "
 echo "                                                  "
